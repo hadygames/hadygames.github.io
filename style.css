@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+#title {
+    color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.white-text {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.game-icon {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.game-tile {
+    text-align: center;
+}
+
+
+
+.flex-container {
+    display: inline-flex;
+    flex-direction: row;
+    order: 0;
+    flex-grow: 0;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.games-link {
+    margin: 10px;
+}
